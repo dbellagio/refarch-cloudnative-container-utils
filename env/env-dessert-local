@@ -1,0 +1,8 @@
+# Config Server has everything, including Eureka IP
+spring_cloud_config_uri=http://172.17.0.3:8888
+# spring_cloud_config_uri=http://localhost:8888
+# eureka_client_serviceUrl_defaultZone=http://172.17.0.2:8761/eureka
+# eureka_client_serviceUrl_defaultZone=http://localhost:8761/eureka
+# server_port=9080
+# wfd_dessert_order=5
+# wfd_dessert_type=special desserts

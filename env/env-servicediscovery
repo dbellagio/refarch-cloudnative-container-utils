@@ -1,0 +1,5 @@
+eureka_client_serviceUrl_defaultZone=https://servicediscovery.eu-gb.bluemix.net/api/eureka/1u336kmg6jfsfbrtjbb7b9iihckle9cbcfnt4pvuonlhqf8c85r/v2/
+server_port=9080
+wfd_entree_order=8
+wfd_entree_type=breakfast
+wfd_entree_menu=Steak Chicken Fish

@@ -1,0 +1,5 @@
+# Config Server has everything, including Eureka IP
+# spring_cloud_config_uri=http://172.17.0.3:8888
+eureka_client_serviceUrl_defaultZone=http://172.17.0.2:8761/eureka
+spring_rabbitmq_host=amqp://xarpfzdw:saJ3ERYZfE9pdCgAgvntkF485AA77Gyi@white-swan.rmq.cloudamqp.com/xarpfzdw
+# server_port=9080
