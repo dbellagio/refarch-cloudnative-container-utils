@@ -24,7 +24,7 @@ sleep 60
 # sleep 120
 
 echo "Create mysql container in BX, listening on port 3306"
-cf ic run -m 128 --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=Pass4Admin123 -e MYSQL_USER=dbuser -e MYSQL_PASSWORD=Pass4dbUs3R -e MYSQL_DATABASE=inventorydb registry.ng.bluemix.net/$(cf ic namespace get)/mysql:cloudnative
+cf ic run -m 128 --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=xxxxxx -e MYSQL_USER=dbuser -e MYSQL_PASSWORD=xxxxxxx -e MYSQL_DATABASE=inventorydb registry.ng.bluemix.net/$(cf ic namespace get)/mysql:cloudnative
 
 echo "sleeping 60 secs for container to start up"
 sleep 60
