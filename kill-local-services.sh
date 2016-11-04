@@ -2,9 +2,13 @@ echo "Stopping zuul"
 docker stop netflix-zuul
 docker rm netflix-zuul
 
-echo "Stopping Hystrix Dashboard and Turbine"
+echo "Stopping Turbine"
 docker stop netflix-turbine
 docker rm netflix-turbine
+
+echo "Stopping Hystrix Dashboard"
+docker stop netflix-hystrix
+docker rm netflix-hystrix
 
 echo "Stopping menu service"
 docker stop menu 
@@ -27,10 +31,18 @@ docker stop dessert
 docker rm dessert
 
 echo "Stopping config server"
-docker stop  configserver
-docker rm  configserver
+docker stop spring-config
+docker rm spring-config
 
 echo "Stopping eureka"
 docker stop netflix-eureka
 docker rm netflix-eureka
+
+echo "Stopping socialreview"
+docker stop socialreview 
+docker rm socialreview
+
+echo "Stopping inventory"
+docker stop inventory 
+docker rm inventory
 
