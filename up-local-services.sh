@@ -1,11 +1,11 @@
 
 echo "Starting eureka"
-docker start eureka
+docker start netflix-eureka
 
 sleep 45
 
 echo "Starting config server"
-docker start  configserver
+docker start  spring-config
 
 sleep 45
 
@@ -26,3 +26,5 @@ docker start wfd-ui
 
 echo "Starting Hystrix Dashboard and Netflix Turbine"
 docker start netflix-turbine
+docker start netflix-hystrix
+docker start netflix-zuul
